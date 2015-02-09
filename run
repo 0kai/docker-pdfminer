@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# convertes given pdf and redirects output to given file
+docker run -ti -v `pwd`:/docs pdfminer pdf2txt.py -o "$2" "$1"
