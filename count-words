@@ -1,0 +1,2 @@
+
+python main.py -s de.stopwords.txt -f out.txt > words.txt
